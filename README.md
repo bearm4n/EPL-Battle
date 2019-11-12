@@ -3,3 +3,5 @@ A game where the user goes head to head against the computer and plays a Top Tru
 
 
 I will be using mySQL to create the database.
+
+Currently there is no GUI and the code is not finished.

@@ -20,7 +20,7 @@ public class MyGame
 		try
 		{  
 			Class.forName("com.mysql.jdbc.Driver");  
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/PremierLeague","root","England1%3");  
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/PremierLeague","root","password");  
 			Statement stmt=con.createStatement();  
 			ResultSet rs=stmt.executeQuery("select * from players where id in "+userPlayers);  
 			while(rs.next())  

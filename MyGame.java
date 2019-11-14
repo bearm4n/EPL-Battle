@@ -7,7 +7,6 @@ public class MyGame
 	public static void main(String args[])
 	{
 		System.out.println("Welcome to Premier League Battle!");
-		System.out.println("It's a TOP TRUMPS rip off");
 		ArrayList<Integer> newOrder = random();
 		
 		ArrayList<Integer> usersIDs = new ArrayList(newOrder.subList(0, 5));
